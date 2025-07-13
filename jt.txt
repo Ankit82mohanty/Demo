@@ -1,0 +1,2 @@
+welcome to java technocrat.
+This is your day2 of frontend class.
