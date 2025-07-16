@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+.parent{
+    width: 800px;
+    background-color: chartreuse;
+    
+}
+.one{
+    background-color: #FF5722;
+    width: 50%;
+    padding:30px;
+    border:10px solid teal;
+    
+}
+
+.two{
+    background-color: orchid;
+    padding: 72px;
+    border: 10px solid aquamarine;
+    margin: 30px;
+    outline: 10px solid seagreen;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
