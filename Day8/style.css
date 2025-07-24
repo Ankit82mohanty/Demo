@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+
+
+}
+p{
+    background-color: rgb(142, 211, 22);
+    /* width: 500px; */
+    width: 50%;
+    height: 50%;
+
+    padding: 10%;
+     /* it relate to the parent element width */
+
+     margin: 10%;
+
+     /* border: 10% solid red; */
+     /* % value cannot be used in border */
+
+     font-size: 200%;
+     /* it realates to the parent element font size */
+}
+
+div{
+    /* width: 400px; */
+    width: 50%;
+    height: 400px;
+    
+    /* font-size: 30px; */
+
+    /* viewport width an height */
+    width: 50vw;
+    height: 25vh;
+    padding: 10vw;
+    border: 1vh solid red;
+    font-size: 3vh;
+}

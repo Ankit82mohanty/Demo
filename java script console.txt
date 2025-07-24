@@ -1,0 +1,71 @@
+string to number:-
+
+parseInt ('100')
+100
++100
+100
++'100abc'
+NaN
+typeof NaN
+'number'
+parseInt ('100abc')
+100
+parseInt ('a10sda0abc')
+NaN
+parseFloat ('100.23')
+100.23
+parseInt ('100.34')
+100
+100 + ''
+'100'
+
+boolean:-
+true
+true
+fal
+VM1467:1 Uncaught ReferenceError: fal is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1467:1
+false
+false
+typeof true
+'boolean'
+typeof false
+'boolean'
++true
+1
++false
+0
+
+
+undefined:-
+
+undefined
+undefined
+typeof undefined
+'undefined'
+let a =10
+undefined
+a
+10
+let b;
+undefined
+b
+undefined
++ undefined
+NaN
++NaN +100
+NaN
+
+null:-
+null
+null
+typeof null
+'object'
++null
+0
+null + ''
+'null'
+
+
+temoral deadzone  
