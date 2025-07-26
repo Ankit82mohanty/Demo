@@ -68,4 +68,10 @@ null + ''
 'null'
 
 
-temoral deadzone  
+temoral deadzone 
+
+
+confirm('are you happy with js classes')
+true
+confirm('are you happy with js classes')
+false
