@@ -74,4 +74,81 @@ temoral deadzone
 confirm('are you happy with js classes')
 true
 confirm('are you happy with js classes')
+
 false
+
+false
+
+wop a program a number is + or not
+              a number is even or odd or neutral
+              a string is empty or not
+              find the biggest num between 3 numb and 2 num
+              find a char is vowel or const
+
+global scope include variable declared using var 
+script scope include varibale declared with const          
+
+
+
+global scope ---> var , function declaration
+script scope ---> let , const , function expression
+local scope ---> variable declared within function
+lexical scope ---> accessing variables from outer function
+block scope ---> variables(except var) declared within block (if , else, loop,switch)
+
+higher order function:-
+---------------------------
+f1()
+higher order function.js:2 value of b  2
+higher order function.js:3 typeof b : number
+'java Technocrat'
+f1("hello")
+higher order function.js:2 value of b  hello
+higher order function.js:3 typeof b : string
+'java Technocrat'
+f1(true)
+higher order function.js:2 value of b  true
+higher order function.js:3 typeof b : boolean
+'java Technocrat'
+f1(null)
+higher order function.js:2 value of b  null
+higher order function.js:3 typeof b : object
+'java Technocrat'
+
+setTimeout & setInterval:-
+-----------------------------
+1
+Settimeout& Setinterval.js:9 3
+Settimeout& Setinterval.js:6 hello everyone
+setTimeout(hello,4000)
+3
+Settimeout& Setinterval.js:6 hello everyone
+setTimeout(hello,4000)
+4
+Settimeout& Setinterval.js:6 hello everyone
+setTimeout(hello,4000)
+5
+Settimeout& Setinterval.js:6 hello everyone
+clearTimeout(5)
+undefined
+clearTimeout()
+undefined
+setTimeout(hello,4000)
+6
+Settimeout& Setinterval.js:6 hello everyone
+clearTimeout(6)
+undefined
+setTimeout(hello,4000)
+7
+Settimeout& Setinterval.js:6 hello everyone
+setInterval(hello,2000)
+8
+24Settimeout& Setinterval.js:6 hello everyone
+clearInterval(8)
+undefined
+setInterval(hello,2000)
+9
+7Settimeout& Setinterval.js:6 hello everyone
+clearTimeout(9)
+undefined
+

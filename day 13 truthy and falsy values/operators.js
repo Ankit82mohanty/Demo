@@ -21,3 +21,6 @@ console.log(2 << 3) //(2 * 2^3)
 console.log(64 << 1) //(64 * 2^1) 
 console.log(64 >> 2) //(64 / 2^2)
 console.log(64 >> 1)
+
+console.log(64 >> 1) //(64 / 2^1)
+
