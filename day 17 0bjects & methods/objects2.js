@@ -58,3 +58,18 @@ const person = {
 // {firstname: 'ankit', lastname: 'sahoo'}
 
 Object.freeze(person) // through freeze method, we can't make any kind of operation (expect extracting values)
+
+// console Result :-
+// ---------------------
+// person
+// {firstname: 'ankit', lastname: 'mohanty'}
+// delete person.lastname
+// false
+// person.age =23
+// 23
+// person
+// {firstname: 'ankit', lastname: 'mohanty'}
+// person.lastname = 'mohapatra'
+// 'mohapatra'
+// person
+// {firstname: 'ankit', lastname: 'mohanty'}
