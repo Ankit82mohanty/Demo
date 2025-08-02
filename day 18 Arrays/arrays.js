@@ -95,11 +95,12 @@ const morefruits= ['apple', 'banana','mango','pineapple','grapes','litchy']
 // console.log('slicedFruits',slicedFruits)
 
 
-// splice() => it deletes the element in the original array and return the deleted elements in an new array 
-//const splicedFruits = morefruits.splice()
-// const splicedFruits = morefruits.splice(2,2 ,"dates","kiwi","blueberry")
-// console.log('morefruits',morefruits)
-// console.log('splicedFruits',splicedFruits)
+// splice() -> it deletes the elements in the org array & returns the deleted elements in an new array
+// const splicedFruits = moreFruits.splice()
+// const splicedFruits = moreFruits.splice(2)
+// const splicedFruits = moreFruits.splice(2, 2, "Dates", 'Orange', 'Guava')
+// console.log('morefuits', moreFruits);
+// console.log('splicedfruits', splicedFruits)
 
 
 // sort ()
@@ -108,6 +109,12 @@ const morefruits= ['apple', 'banana','mango','pineapple','grapes','litchy']
 
 
 ////////////////////////////////////////////////////////////////
+// forEach()
+// map()
+// filter()
+// reduce()
+// every()
+// some()
 
 //forEach :-
 const months = ['JAN','FEB','MAR','APR','MAY']
@@ -199,7 +206,7 @@ const months = ['JAN','FEB','MAR','APR','MAY']
 //----------------------------------------------------------------------------------------------------
 
 //Every :-
-let isEveryOdds = num.every(num => num%2 ==0)
+let isEveryOdds = num.every(num => num%2 !=0)
 console.log(isEveryOdds)
 
 
