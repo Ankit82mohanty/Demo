@@ -71,3 +71,49 @@
 // document.querySelector("#my-first-image-id").id
 // document.querySelector("#my-first-image-id").className
 //document.querySelector("#my-first-image-id").title
+
+
+
+//========================09.08.25====================================//
+//========================how to apply styles using javascript=================//
+// document.querySelector('h2').style
+// document.querySelectorAll('[username]')[0].style.color = "green"
+//document.querySelectorAll('[username]')[1].style.color = "greenyellow"
+
+//const links = document.querySelectorAll('a')
+// for(let i = 0;i<links.length;i++){
+//    links[i].style.color='teal'
+//  }
+
+//links.forEach(links => links.style.color ="cyan" )
+
+
+
+///======================================ACCESSING PARENT ELEMENT ,SIBLING ELEMENT,CHILDREN ELEMENT==================//
+// const FirstLink = document.querySelector("body > p:nth-child(5) > a:nth-child(2)")
+// undefined
+
+// firstLink.parentElement
+// <p>​…​</p>​
+// firstLink.parentElement.parentElement
+// <body style=​"font-family:​ sans-serif">​…​</body>​
+// firstLink.parentElement.parentElement.parentElement.parentNode
+// #document (http://127.0.0.1:5500/day%2023%20DOM/1.INDEX.HTML)
+
+// firstLink.children
+// HTMLCollection []
+// firstLink.childNodes
+// NodeList [text]0: textassignedSlot: nullbaseURI: "http://127.0.0.1:5500/day%2023%20DOM/1.INDEX.HTML"childNodes: NodeList []data: "graphical user interface"firstChild: nullisConnected: truelastChild: nulllength: 24nextElementSibling: nullnextSibling: nullnodeName: "#text"nodeType: 3nodeValue: "graphical user interface"ownerDocument: documentparentElement: aparentNode: apreviousElementSibling: nullpreviousSibling: nulltextContent: "graphical user interface"wholeText: "graphical user interface"[[Prototype]]: Textlength: 1[[Prototype]]: NodeList
+
+// firstLink .nextElementSibling
+// <a target=​"_blank" href=​"https:​/​/​en.wikipedia.org/​wiki/​HTML">​HTML​</a>​
+// firstLink .nextElementSibling.nextElementSibling
+// <a target=​"_blank" href=​"https:​/​/​en.wikipedia.org/​wiki/​CSS">​CSS​</a>​
+// const css = firstLink .nextElementSibling.nextElementSibling
+// undefined
+
+
+
+
+
+
