@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="font-family: cursive;">
+    <h1>Try,catch & finally keyword</h1>
+
+    <script>
+        class AppError extends Error{
+            constructor(mesg){
+                super(mesg)
+            }
+        }
+        function f1(){
+            const number = Math.floor(Math.random()*10+1)
+            if(number>4){
+                ejhvdghdodmnbun()
+               // throw new error("nothing important");
+               throw new AppError("nothing important")
+                
+            }
+            console.log("hello hello")
+        }
+        try{
+            f1()
+        }
+        catch(err){
+            console.log("error occured:-",err)
+        }
+        finally{
+            console.log("finally executed")
+        }
+    </script>
+</body>
+</html>
