@@ -3,15 +3,18 @@ import './App.css'
 import Greetings from './greetings.jsx'
 
 function App() {
-  console.log("parent component")
+  //console.log("parent component")
 
   const [name,setName]= useState("Ankit")
+  const [showGreetings,setShowGreetings]= useState(true)
+  console.log('showGreetings',showGreetings)
 
   return (
     <>
      <div style={{padding: '20px'}}>
     <h1>React props and state</h1>
 
+    <button onClick={()=>setShowGreetings(!setShowGreetings)}></button>
 
     {/* <Greetings name={name} /> */}
     <Greetings name ={name}>
