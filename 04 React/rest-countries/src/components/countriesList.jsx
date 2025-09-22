@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import CountryCard from './countryCard.jsx'
+import CountryCard from './CountryCard.jsx'
+import CountryListShimmer from './CountryListShimmer.jsx'
 
 export default function CountriesList({ query }) {
   const [countriesData, setCountriesData] = useState([])
@@ -15,7 +16,12 @@ export default function CountriesList({ query }) {
   }, [])
 
   const filteredCountries = countriesData.filter((country) =>
-    country.name.common.toLowerCase().includes(query))
+    country.name.common.toLowerCase().includes(query) || country.region.toLowerCase().includes(query)
+  )
+
+  if(!countriesData.length) {
+    return <CountryListShimmer />
+  }
 
   return (
     <>

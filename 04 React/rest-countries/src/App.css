@@ -18,9 +18,9 @@ main, header {
 }
 
 main.dark, header.dark {
-    --background-color: hsl(207, 26%, 17%); 
+    --background-color: hsl(209, 26%, 17%); 
     --text-color: white;
-    --elements-color: hsl(209, 23%, 22%);
+    --elements-color: hsl(208, 23%, 22%);
 }
 
 main {
@@ -31,6 +31,8 @@ main {
 a {
     text-decoration-line: none;
     color: inherit;
+    display: inline-block;
+    margin: 5px 4px;
 }
 
 .header-container {
@@ -169,4 +171,35 @@ a {
     .search-filter-container {
         flex-direction: column;
     }
+}
+
+/* CountriesList Shimmer UI */
+body .shimmer-card {
+    height: 314px;
+    background-color: var(--elements-color);
+    --shimmer-color: #c7c7c7;
+}
+
+body.dark .shimmer-card {
+    --shimmer-color: #475a6c;
+}
+
+.shimmer-card .flag-container {
+    background-color: var(--shimmer-color);
+}
+
+.shimmer-card .card-title {
+    height: 32px;
+    background-color: var(--shimmer-color);
+    border-radius: 2px;
+}
+
+.shimmer-card p {
+    height: 22px;
+    background-color: var(--shimmer-color);
+    border-radius: 2px;
+}
+
+.shimmer-card p:last-child {
+    width: 60%;
 }
