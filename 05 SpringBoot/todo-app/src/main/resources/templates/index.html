@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+    <div class="container"> 
+  <div class="todo-app"> 
+     <h2 >To-Do List <img src="/images/todo.png" alt=""></h2>
+
+     <form action="/add" class="row" method="post">
+        <input type="text" placeholder="Enter your Task" name="task" required>
+        <button>Add</button>
+     </form>
+<ul>
+     <li th:each="todo:${todos}">
+    <span th:text=${todo.task}></span>
+    </li>
+</ul>
+</div>
+   </div>
+</body>
+</html>
